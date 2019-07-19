@@ -1,0 +1,30 @@
+{
+  "name": "discord-rich-embed-menu",
+  "version": "1.0.0",
+  "description": "framework for creating user interfaces using Discord's rich embed",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelennylord/discord-rich-embed-menu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/thelennylord/discord-rich-embed-menu/issues"
+  },
+  "homepage": "https://github.com/thelennylord/discord-rich-embed-menu#readme",
+  "keywords": [
+    "discord",
+    "rich",
+    "embed",
+    "framework",
+    "menu",
+    "interface"
+  ],
+  "author": "thelennylord <thelennylord@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
