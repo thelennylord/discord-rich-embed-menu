@@ -36,9 +36,9 @@ const menuTemplate = {
     ]
 };
 
-bot.on(`message`, message => {
+bot.on(`message`, async message => {
     if (message.content === `!menu`) {
-        let response = message.channel.send(`Loading menu...`);
+        let response = await message.channel.send(`Loading menu...`);
         const menu = new DiscordRichEmbedMenu(menuTemplate, response, message, {
                 dataPersistance: true,
                 backButton: true

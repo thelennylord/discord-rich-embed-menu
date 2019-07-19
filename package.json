@@ -1,6 +1,6 @@
 {
   "name": "discord-rich-embed-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "framework for creating user interfaces using Discord's rich embed",
   "main": "index.js",
   "repository": {
