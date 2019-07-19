@@ -5,7 +5,7 @@ A simple-to-use framework for creating responsive user interfaces using Discord'
 `npm install discord-rich-embed-menu --save`
 
 ## Example
-```
+```js
 const Discord = require(`discord.js`);
 const DiscordRichEmbedMenu = require(`discord-rich-embed-menu`);
 const bot = new Discord.Client();
